@@ -1,8 +1,78 @@
-# Getting Started with Create React App
+# LetsHost
+
+## Project Overview
+LetsHost is a React-based web application bootstrapped with Create React App.
+
+## Prerequisites
+- Node.js (>= 10.0.0)
+- npm or yarn
+
+## Project Structure
+
+## Environment Variables
+The following environment variables can be set in `.env.local`:
+- `REACT_APP_*` - Any custom environment variables for the application
+
+## Browser Support
+- Chrome/Firefox/Safari/Edge (modern versions)
+- Progressive Web App (PWA) support with icons for:
+  - 64x64 favicon
+  - 192x192 for mobile devices
+  - 512x512 for larger devices
+
+## Development Notes
+- The project uses modern JavaScript features and React best practices
+- Hot reloading is enabled for development
+- Testing is set up with Jest
+- PWA features are pre-configured
+
+---
+
+## Create React App Documentation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
+
+// ... rest of the existing CRA documentation ...
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Quick Start
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Set up environment variables in `.env.local`:
+- `REACT_APP_*` - Any custom environment variables for the application
+
+3. Start development server:
+```bash
+npm start
+```
 
 In the project directory, you can run:
 
@@ -57,14 +127,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
